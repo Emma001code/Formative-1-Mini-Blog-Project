@@ -1,4 +1,4 @@
-import type { Post as BlogPost } from '../types/post'
+import type { Post as BlogPost } from '../types/post.ts'
 
 interface PostProps {
   post: BlogPost
