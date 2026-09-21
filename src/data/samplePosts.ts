@@ -1,5 +1,6 @@
-import type { Post } from '../types/post';
+import type { Post } from '../types/post.ts'
 
+// Hardcoded starter posts so the list works without a backend.
 export const initialPosts: Post[] = [
   {
     id: 1,
@@ -25,4 +26,4 @@ export const initialPosts: Post[] = [
       'As an ALU facilitator, my rule is simple: turn your camera on in class, unless you want to get kicked out. Showing up on screen is how we stay present, ask questions, and actually learn the work together.',
     datePosted: new Date('2026-08-22T14:30:00'),
   },
-];
+]
