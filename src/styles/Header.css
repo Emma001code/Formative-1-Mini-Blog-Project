@@ -1,0 +1,31 @@
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
+  background: #14213d;
+  color: #fff;
+  position: sticky;
+  top: 0;
+}
+
+.site-header a,
+.site-header button {
+  color: #fff;
+  text-decoration: none;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  padding: 0.4rem 0.85rem;
+  border-radius: 6px;
+  font: inherit;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.site-header a:hover,
+.site-header button:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
